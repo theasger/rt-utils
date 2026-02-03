@@ -2,7 +2,7 @@ import os
 import pydicom
 import numpy as np
 import SimpleITK as sitk
-from rt_utils import RTStructBuilder
+from rtutils import RTStructBuilder
 import csv
 import json
 import dateutil

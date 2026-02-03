@@ -45,12 +45,12 @@ dependencies = [
 
 [project.urls]
 Homepage = "https://github.com/qurit/rtutils"
-Repository = "https://github.com/qurit/rt-utils"
-Issues = "https://github.com/qurit/rt-utils/issues"
+Repository = "https://github.com/qurit/rtutils"
+Issues = "https://github.com/qurit/rtutils/issues"
 
 [tool.setuptools]
-package-dir = {"" = "rt_utils"}
+package-dir = {"" = "rtutils"}
 
 [tool.setuptools.packages.find]
-where = ["rt_utils"]
+where = ["rtutils"]
 exclude = ["tests"]

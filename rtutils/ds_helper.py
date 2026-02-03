@@ -1,6 +1,6 @@
 import datetime
-from rt_utils.image_helper import get_contours_coords
-from rt_utils.utils import ROIData, SOPClassUID
+from rtutils.image_helper import get_contours_coords
+from rtutils.utils import ROIData, SOPClassUID
 import numpy as np
 from pydicom.uid import generate_uid
 from pydicom.dataset import Dataset, FileDataset, FileMetaDataset
