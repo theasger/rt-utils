@@ -49,8 +49,4 @@ Repository = "https://github.com/qurit/rtutils"
 Issues = "https://github.com/qurit/rtutils/issues"
 
 [tool.setuptools]
-package-dir = {"" = "rtutils"}
-
-[tool.setuptools.packages.find]
-where = ["rtutils"]
-exclude = ["tests"]
+packages = ["rtutils"]
