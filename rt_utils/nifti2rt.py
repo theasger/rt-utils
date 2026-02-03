@@ -2,7 +2,7 @@ import SimpleITK as sitk
 from SimpleITK import GetArrayFromImage, sitkNearestNeighbor, Image
 import numpy as np
 from torch import nn
-from rtutils import RTStructBuilder
+from rt_utils import RTStructBuilder
 
 def debug_output(seg: sitk.Image, seg_path: str, uid:str, dicom_path: str):
     mask_from_sitkImage_zyx = np.transpose(sitk.GetArrayFromImage(seg), (2, 1, 0))

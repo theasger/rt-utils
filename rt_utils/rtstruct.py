@@ -1,7 +1,7 @@
 from typing import List, Union
 import numpy as np
 from pydicom.dataset import FileDataset
-from rtutils.utils import ROIData
+from rt_utils.utils import ROIData
 from . import ds_helper, image_helper
 
 

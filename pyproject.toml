@@ -3,7 +3,7 @@ requires = ["setuptools>=61.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "rtutils"
+name = "rt-utils"
 version = "1.3.0"
 authors = [
     {name = "Asim Shrestha", email = "asim.shrestha@hotmail.com"}
@@ -49,4 +49,4 @@ Repository = "https://github.com/qurit/rtutils"
 Issues = "https://github.com/qurit/rtutils/issues"
 
 [tool.setuptools]
-packages = ["rtutils"]
+packages = ["rt_utils"]
