@@ -3,7 +3,7 @@ requires = ["setuptools>=61.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "rt-utils"
+name = "rtutils"
 version = "1.3.0"
 authors = [
     {name = "Asim Shrestha", email = "asim.shrestha@hotmail.com"}
